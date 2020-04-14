@@ -2,7 +2,7 @@ const express=require('express');
 const bodyParser=require('body-parser');
 const request=require('request');
 const app=express();
-
+var PORT=process.env.PORT || 3000;
 const apiKey='1058c919506765813282e02501a4dc0f';
 
 
@@ -39,7 +39,7 @@ app.post('/',function(req,res){
     
 });
 
-app.listen(3000,function(){
+app.listen(PORT,function(){
     console.log('server is on port 3000!!');
 });
 
