@@ -1,3 +1,0 @@
-# weatherapp
-
-using nodejs
