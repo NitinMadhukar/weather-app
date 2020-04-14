@@ -40,6 +40,6 @@ app.post('/',function(req,res){
 });
 
 app.listen(PORT,function(){
-    console.log('server is on port 3000!!');
+    console.log(`server is on port ${PORT}`);
 });
 
